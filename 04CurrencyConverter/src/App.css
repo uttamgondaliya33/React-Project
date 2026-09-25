@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900');
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #F0F2F5;
+  font-family: "Inter", sans-serif;
+}
+
+.card
+{
+    background-color: #ffffff;
+    width: 55%;
+    min-width: 550px;
+    padding: 50px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 8px;
+}
+
+h1{
+  /* padding: 16px; */
+  background: #fff;
+  font-size: 30px !important;
+  margin-bottom: 2rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.currency_exchnage
+{
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  /* align-items: center; */
+}
+
+.input_container {
+  width: 30%;
+  height: fit-content;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: #fff;
+}
+
+.icon {
+  width: 20px;
+  position: absolute;
+  z-index: 99;
+  left: 12px;
+  bottom: 9px;
+}
+
+.input_label {
+  font-size: 0.95rem;
+  color: #8B8E98;
+  font-weight: 600;
+  background: #fff;
+}
